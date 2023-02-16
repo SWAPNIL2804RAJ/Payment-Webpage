@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--for h3-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Kalam:wght@700&family=Kavoon&family=Righteous&family=Space+Grotesk:wght@300;400&family=Space+Mono:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!--for legend-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Chakra+Petch:ital,wght@0,600;1,300&family=Kalam:wght@700&family=Kavoon&family=Righteous&family=Space+Grotesk:wght@300;400&family=Space+Mono:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+    <!--for h2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Chakra+Petch:ital,wght@0,600;1,300&family=Cinzel:wght@600&family=Kalam:wght@700&family=Kavoon&family=Righteous&family=Space+Grotesk:wght@300;400&family=Space+Mono:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+    <!--fav icon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+    <!--ICONSx-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <title>PAYMENT FORM</title>
+    <link rel="stylesheet" href="paymentstyle.css">
+</head>
+<body>
+    <h5>Click  Below To Go On Home Page</h5>
+    <a href="/" title="Home" class="homeicon"><i class="fas fa-home"></i></a>   <!--icon add-->
+    
+    <a class="homepage" href="BANK.html">HOME PAGE</a>
+    <br></br>
+    <br></br>         
+    <form action="">
+        <h1>PAYMENT FORM</h1>
+        <br></br>
+        <div class="nav">
+        <nav>
+            <a href="">CANCEL PAYMENT</a>
+            <a href="BANK.html">HOME PAGE</a>
+            <a href="">CANCEL PAYMENT</a>
+        </nav>
+        </div>
+        <br></br>
+        <div class="container"> 
+        <h3>ACCOUNT HOLDER DETAILS</h3>
+        <p>FIRST NAME: <input type="text" name="fname" placeholder="Your Name" required></p>            <!--"requied" keyword use krr rha hu-->
+        <!--ye bhi likh skte hain-->
+        <!--<p>"REQUIRED" Field are followed by *</p> and then jo bhi imp. hoo sbke aage "*" laggaa doo-->
+        <p>LAST NAME: <input type="text" name="lname" placeholder="Your Name"></p>
+        <p>AGE: <input type="number" name="age" placeholder="Age" required ></p>
+    <fieldset>
+        <legend>GENDER</legend>                         
+        <p>MALE: <input type="radio" name="gender"> FEMALE:<input type="radio" name="gender"> OTHER: <input type="radio" name="gender" required></p>
+    </fieldset>
+    <br></br>
+    <fieldset>
+        <legend>ADDRESS</legend>
+        <p>PERMANENT ADDRESS: <textarea name="address" cols="90" rows="7" placeholder="Address" required></textarea></p>
+        <p>Pincode: <input type="number" name="pincode" placeholder="XXXXXX" required></p>
+        <p>TEMPORARY ADDRESS: <textarea name="address" cols="90" rows="7" placeholder="Optional"></textarea></p>
+        <p>Pincode: <input type="number" name="pincode" placeholder="Optional"></p>
+    </fieldset>
+    <br></br>
+    <p>EMAIL ADDRESS : <input type="email" name="email" placeholder="xxxxx@gmail.com" required></p>
+    <hr>
+    <br></br>
+    <br></br>
+    <h2>PAYMENT INFORMATION</h2>
+    <p class="paymentmode">Payment Type :
+        <br></br>
+    <select class="paymenttype" name="payment type" required>
+        <option value="">--SELECT PAYMENT TYPE--</option>
+        <option value="UPI">UPI</option>
+        <option  value="CARD">CARD</option>
+        <option value="WALLET">WALLET</option>
+    </select>
+    </p>
+    <br>
+    <p><fieldset><legend>UPI</legend>
+        <p>ENTER YOUR UPI NUMBER <input type="number" name="upinumber" placeholder="XXXXXXXXXX"></p>
+        <input type="submit" value="PAY NOW">
+        </fieldset>
+    </p>
+    <br>
+    <p><fieldset>
+        <legend>CARD</legend>
+        <p>
+            CARD TYPE:
+            <select class="cardtype" name="card type">
+                <option value="SELECT">--SELECT YOUR CARD TYPE--</option>
+                <option value="VISA">VISA</option>
+                <option value="MASTERCARD">MASTERCARD</option>
+                <option value="RUPAY">RUPAY</option>
+            </select>
+        </p>
+        <p>
+            NAME OF CARD HOLDER : <input type="text" name="cardholder_name" placeholder="NAME ON CARD" >
+        </p>
+        <p>
+            CARD NUMBER : <input type="number" name="cardnumber" placeholder="XXXX XXXX XXXX">
+        </p>
+        <p>
+            EXPIRY DATE : <input type="date" name="expirydate">
+        </p>
+        <p>
+            CVV : <input type="password" name="cvv" placeholder="***">
+        </p>
+    </p>
+    <p>                                                         <!--submit waala alag se ya uske under likhne se koi fark nahi padta ex see upi and card-->
+        <input type="submit" value="PAY NOW">
+    </p> 
+    </fieldset>
+    <br>
+    <p><fieldset><legend>WALLET</legend>
+        <p>WALLET TYPE:
+            <select name="wallet type">
+                <option value="">--SELECT YOUR WALLET TYPE--</option>
+                <option value="PAYTM WALLET">PAYTM WALLET</option>
+                <option value="MOBIKWIK">MOBIWIK WALLET</option>
+                <option value="PHONE PAY">PHONE PAY WALLET</option>
+                <option value="PAY PAL">PAY PAL WALLET</option>
+                <option value="AIRTEL">AIRTEL WALLET</option>
+                <option value="JIO">JIO WALLET</option>
+            </select>
+            <p>
+                ENTER THE LINKED PHONE NUMBER <input  type="number" name="phonenumber" placeholder="XXXXXXXXXX">
+            </p>
+            <p>
+                <input type="submit" value="PAY NOW">
+            </p>
+        </p>
+    </div>
+    </fieldset>
+    </p>
+    <hr>
+    <hr>
+    <h3>THANK YOU FOR THE PAYMENT <br>YOUR PAYMENT IS BEING PROCESSED</h3>
+   </form>
+   <a href= #top><p align="center">BACK TO TOP</p></a>
+</body>
+</html>

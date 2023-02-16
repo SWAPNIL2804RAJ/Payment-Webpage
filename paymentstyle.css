@@ -1,0 +1,213 @@
+
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@media screen and (orientation: potrait) {
+    body{
+        color:white;
+    }
+}
+
+.homeicon{
+    position: relative;
+    right: -90%;
+
+}
+
+.container{
+    background-image: url("background\ payment.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: solid 2px;
+    border-radius: 8px;
+    padding: 20px;
+    border-color: blueviolet;
+    position: relative;
+    right: 0.7%;
+}
+
+.nav{
+    background-attachment: fixed;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: transparent;
+    text-align: center;
+    padding: 12%;
+    float:inline-start;
+}
+
+nav a:hover{
+    color: aqua;
+    background-color: black;
+}
+
+nav{
+    width: 100%;
+    background-color: gray;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.paymenttype{
+    font-weight:500;
+    width: 30%;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.paymentmode{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.cardtype{
+    font-weight: 500;
+    width: 20%;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input[type="date"]{
+    width: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type="password"]{
+    width: 5%;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+input[type="text"]{
+    width: 30%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[type="number"]{
+    width: fit-content;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+input[type="email"]{
+    width: 30%;
+    padding: 4px;
+    border-radius: 0px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px  solid black;
+}
+
+input[type="email"]:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;    
+}
+
+input[type="card type"]{
+    width: 50%;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    background-color: rgb(235, 161, 255);
+    color: aliceblue;
+    padding: 10px;
+    border: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+    display: block;
+    margin: auto;
+    transition: width 1s;
+}
+
+input[type="submit"]:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(24, 195, 127);
+    width: 1350px;
+}
+
+fieldset{
+    border-radius: 10px;
+    border-color: black;
+    padding: 20px 10px;
+}
+
+body{
+    background-image: url("background\ payment.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin: 30px 40px;
+    padding: 10px;
+}
+
+h5{ 
+    font-weight: 100;
+    font-family:'Arvo', Courier, monospace;
+    text-align: right;
+}
+
+.homepage{
+    position: relative;
+    right: -91%;
+    border: 3px solid;
+    padding: 3px;
+    background-color:lightpink;
+    border-radius: 5px;
+}
+
+.homepage:hover{
+    color: azure;
+    background-color: lightslategrey;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 20px;
+    font-family: 'Righteous', sans-serif;
+    font-style: normal;
+    text-decoration: overline underline;
+    font-weight: 700;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+    padding: 20px;
+}
+
+h3{
+    font-family:'Kalam';
+    text-decoration: black;
+    font-style: initial;
+}
+
+legend{
+    font-family:'Chakra Petch', Courier, monospace;
+    font-weight: 300;
+}
+
+h2{
+    font-family:'Cinzel', 'Tahoma', 'sans-serif';
+    color: whitesmoke;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    border: 3px solid black;
+}
