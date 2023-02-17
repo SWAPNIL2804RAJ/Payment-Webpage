@@ -1,8 +1,9 @@
-
+html{
+    scroll-behavior: smooth;
+}
 
 *{
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+    box-sizing: border-box;  
 }
 
 @media screen and (orientation: potrait) {
@@ -210,4 +211,21 @@ h2{
     letter-spacing: 10px;
     word-spacing: 10px;
     border: 3px solid black;
+}
+
+.top {
+    position: relative;
+    text-align: center;
+    padding: 3px;
+    background-color: lightpink;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    transition: 1s;
+}
+
+.top:hover{
+    color: azure;
+    background-color:rgb(201, 68, 201);
+    width: 1000px;
 }
