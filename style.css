@@ -74,36 +74,42 @@ nav{
     width: 20%;
     padding: 2px;
     border-radius: 5px;
+    text-overflow:ellipsis;
 }
 
 textarea{
     width: 100%;
     padding: 10px;
     border-radius: 10px;
+    text-overflow:ellipsis;
 }
 
 input[type="date"]{
     width: auto;
     padding: 5px;
     border-radius: 5px;
+    text-overflow:ellipsis;
 }
 
 input[type="password"]{
     width: 5%;
     padding: 3px;
     border-radius: 4px;
+    text-overflow:ellipsis;
 }
 
 input[type="text"]{
     width: 30%;
     padding: 5px;
     border-radius: 5px;
+    text-overflow:ellipsis;
 }
 
 input[type="number"]{
     width: fit-content;
     padding: 6px;
     border-radius: 5px;
+    text-overflow:ellipsis;
 }
 
 input[type="email"]{
@@ -113,18 +119,20 @@ input[type="email"]{
     background-color: transparent;
     border: none;
     border-bottom: 2px  solid black;
+    text-overflow:ellipsis;
 }
 
 input[type="email"]:focus{
     border: none;
     outline: none;
-    border-bottom: 2px solid white;    
+    border-bottom: 2px solid white;
 }
 
 input[type="card type"]{
     width: 50%;
     padding: 4px;
     border-radius: 5px;
+    text-overflow:ellipsis;
 }
 
 input[type="submit"]{
@@ -143,7 +151,8 @@ input[type="submit"]{
 input[type="submit"]:hover{
     color: rgb(0, 0, 0);
     background-color: rgb(24, 195, 127);
-    width: 1350px;
+    width: 80%;
+    text-overflow:ellipsis;
 }
 
 fieldset{
@@ -164,6 +173,7 @@ h5{
     font-weight: 100;
     font-family:'Arvo', Courier, monospace;
     text-align: right;
+    text-overflow:ellipsis;
 }
 
 .homepage{
@@ -190,6 +200,7 @@ h1{
     letter-spacing: 20px;
     word-spacing: 10px;
     padding: 20px;
+    text-overflow:ellipsis;
 }
 
 h3{
@@ -227,5 +238,5 @@ h2{
 .top:hover{
     color: azure;
     background-color:rgb(201, 68, 201);
-    width: 1000px;
+    width: 80%;
 }
