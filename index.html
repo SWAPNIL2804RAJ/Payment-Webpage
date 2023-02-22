@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--for p-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Phudu:wght@300&display=swap" rel="stylesheet">
     
     <!--for h3-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,54 +34,53 @@
     <!--ICONSx-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 
-    <title>PAYMENT FORM</title>
+    <title style="color:white;">PAYMENT FORM</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <a name = "top"></a>
-    <h5>Click  Below To Go On Home Page</h5>
-    <a href="/" title="Home" class="homeicon"><i class="fas fa-home"></i></a>   <!--icon add-->
+    <h5 style="color:white;">Click  Below To Go On Home Page</h5>
+    <a href="/" title="Home" class="homeicon"><i class="fas fa-home"></i></a> 
     
     <a class="homepage" href="BANK.html">HOME PAGE</a>
     <br></br>
-    <br></br>         
+    <br></br>
     <form action="">
-        <h1>PAYMENT FORM</h1>
+        <h1 style="color:white;">PAYMENT FORM</h1>
         <br></br>
         <div class="nav">
         <nav>
-            <a href="">CANCEL PAYMENT</a>
-            <a href="BANK.html">HOME PAGE</a>
-            <a href="">CANCEL PAYMENT</a>
+            <a href href style="font-family:'Courier New', Courier, monospace">HOME PAGE</a>
+            <a href style="font-family:'Courier New', Courier, monospace">CANCEL PAYMENT</a>
         </nav>
         </div>
         <br></br>
         <div class="container"> 
-        <h3>ACCOUNT HOLDER DETAILS</h3>
-        <p>FIRST NAME: <input type="text" name="fname" placeholder="Your Name" required></p>          <!--"requied" keyword use krr rha hu-->
+        <h3 style="color:white;">ACCOUNT HOLDER DETAILS</h3>
+        <p style="color:white;">FIRST NAME: <input type="text" name="fname" placeholder="Your Name" required></p>          <!--"requied" keyword use krr rha hu-->
         <!--ye bhi likh skte hain-->
         <!--<p>"REQUIRED" Field are followed by *</p> and then jo bhi imp. hoo sbke aage "*" laggaa doo-->
-        <p>LAST NAME: <input type="text" name="lname" placeholder="Your Name"></p>
-        <p>AGE: <input type="number" name="age" placeholder="Age" required ></p>
+        <p style="color:white;">LAST NAME: <input type="text" name="lname" placeholder="Your Name"></p>
+        <p style="color:white;">AGE: <input type="number" name="age" placeholder="Age" required ></p>
     <fieldset>
-        <legend>GENDER</legend>                         
-        <p>MALE: <input type="radio" name="gender"> FEMALE:<input type="radio" name="gender"> OTHER: <input type="radio" name="gender" required></p>
+        <legend style="color:white;">GENDER</legend>                         
+        <p style="color:white;">MALE: <input type="radio" name="gender"> FEMALE:<input type="radio" name="gender"> OTHER: <input type="radio" name="gender" required></p>
     </fieldset>
     <br></br>
     <fieldset>
-        <legend>ADDRESS</legend>
-        <p>PERMANENT ADDRESS: <textarea name="address" cols="90" rows="7" placeholder="Address" required></textarea></p>
-        <p>Pincode: <input type="number" name="pincode" placeholder="XXXXXX" required></p>
-        <p>TEMPORARY ADDRESS: <textarea name="address" cols="90" rows="7" placeholder="Optional"></textarea></p>
-        <p>Pincode: <input type="number" name="pincode" placeholder="Optional"></p>
+        <legend style="color:white;">ADDRESS</legend>
+        <p style="color:white;">PERMANENT ADDRESS: <textarea name="address" cols="90" rows="7" placeholder="Address" required></textarea></p>
+        <p style="color:white;">Pincode: <input type="number" name="pincode" placeholder="XXXXXX" required></p>
+        <p style="color:white;">TEMPORARY ADDRESS: <textarea name="address" cols="90" rows="7" placeholder="Optional"></textarea></p>
+        <p style="color:white;">Pincode: <input type="number" name="pincode" placeholder="Optional"></p>
     </fieldset>
     <br></br>
-    <p>EMAIL ADDRESS : <input type="email" name="email" placeholder="xxxxx@gmail.com" required></p>
+    <p style="color:white;">EMAIL ADDRESS : <input type="email" name="email" placeholder="xxxxx@gmail.com" required></p>
     <hr>
     <br></br>
     <br></br>
-    <h2>PAYMENT INFORMATION</h2>
-    <p class="paymentmode">Payment Type :
+    <h2 style="color:white;">PAYMENT INFORMATION</h2>
+    <p class="paymentmode" style="color:white;">Payment Type :
         <br></br>
     <select class="paymenttype" name="payment type" required>
         <option value="">--SELECT PAYMENT TYPE--</option>
@@ -86,15 +90,15 @@
     </select>
     </p>
     <br>
-    <p><fieldset><legend>UPI</legend>
-        <p>ENTER YOUR UPI NUMBER <input type="number" name="upinumber" placeholder="XXXXXXXXXX"></p>
+    <p><fieldset><legend style="color:white;">UPI</legend>
+        <p style="color:white;">ENTER YOUR UPI NUMBER <input type="number" name="upinumber" placeholder="XXXXXXXXXX"></p>
         <input type="submit" value="PAY NOW">
         </fieldset>
     </p>
     <br>
     <p><fieldset>
-        <legend>CARD</legend>
-        <p>
+        <legend style="color:white;">CARD</legend>
+        <p style="color:white;">
             CARD TYPE:
             <select class="cardtype" name="card type">
                 <option value="SELECT">--SELECT YOUR CARD TYPE--</option>
@@ -103,16 +107,16 @@
                 <option value="RUPAY">RUPAY</option>
             </select>
         </p>
-        <p>
+        <p style="color:white;">
             NAME OF CARD HOLDER : <input type="text" name="cardholder_name" placeholder="NAME ON CARD" >
         </p>
-        <p>
+        <p style="color:white;">
             CARD NUMBER : <input type="number" name="cardnumber" placeholder="XXXX XXXX XXXX">
         </p>
-        <p>
+        <p style="color:white;">
             EXPIRY DATE : <input type="date" name="expirydate">
         </p>
-        <p>
+        <p style="color:white;">
             CVV : <input type="password" name="cvv" placeholder="***">
         </p>
     </p>
@@ -121,8 +125,8 @@
     </p> 
     </fieldset>
     <br>
-    <p><fieldset><legend>WALLET</legend>
-        <p>WALLET TYPE:
+    <p><fieldset><legend style="color:white;">WALLET</legend>
+        <p style="color:white;">WALLET TYPE:
             <select name="wallet type">
                 <option value="">--SELECT YOUR WALLET TYPE--</option>
                 <option value="PAYTM WALLET">PAYTM WALLET</option>
@@ -132,10 +136,10 @@
                 <option value="AIRTEL">AIRTEL WALLET</option>
                 <option value="JIO">JIO WALLET</option>
             </select>
-            <p>
+            <p style="color:white;">
                 ENTER THE LINKED PHONE NUMBER <input  type="number" name="phonenumber" placeholder="XXXXXXXXXX">
             </p>
-            <p>
+            <p style="color:white;">
                 <input type="submit" value="PAY NOW">
             </p>
         </p>
@@ -144,7 +148,7 @@
     </p>
     <hr>
     <hr>
-    <h3>THANK YOU FOR THE PAYMENT <br>YOUR PAYMENT IS BEING PROCESSED</h3>
+    <h3 style="color:white;">THANK YOU FOR THE PAYMENT</h3><h3 style="color:white;">YOUR PAYMENT IS BEING PROCESSED</h3>
     </form>
     <a href= #top><p class="top">BACK TO TOP</p></a>
 </body>
