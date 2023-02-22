@@ -6,16 +6,32 @@ html{
     box-sizing: border-box;  
 }
 
-@media screen and (orientation: potrait) {
-    body{
-        color:white;
-    }
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px){
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
 }
 
 .homeicon{
     position: relative;
     right: -90%;
-
 }
 
 .container{
@@ -74,21 +90,18 @@ nav{
     width: 20%;
     padding: 2px;
     border-radius: 5px;
-    text-overflow:ellipsis;
 }
 
 textarea{
     width: 100%;
     padding: 10px;
     border-radius: 10px;
-    text-overflow:ellipsis;
 }
 
 input[type="date"]{
     width: auto;
     padding: 5px;
     border-radius: 5px;
-    text-overflow:ellipsis;
 }
 
 input[type="password"]{
@@ -119,20 +132,18 @@ input[type="email"]{
     background-color: transparent;
     border: none;
     border-bottom: 2px  solid black;
-    text-overflow:ellipsis;
 }
 
 input[type="email"]:focus{
     border: none;
     outline: none;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid white;    
 }
 
 input[type="card type"]{
     width: 50%;
     padding: 4px;
     border-radius: 5px;
-    text-overflow:ellipsis;
 }
 
 input[type="submit"]{
@@ -152,7 +163,6 @@ input[type="submit"]:hover{
     color: rgb(0, 0, 0);
     background-color: rgb(24, 195, 127);
     width: 80%;
-    text-overflow:ellipsis;
 }
 
 fieldset{
@@ -173,7 +183,6 @@ h5{
     font-weight: 100;
     font-family:'Arvo', Courier, monospace;
     text-align: right;
-    text-overflow:ellipsis;
 }
 
 .homepage{
@@ -200,7 +209,6 @@ h1{
     letter-spacing: 20px;
     word-spacing: 10px;
     padding: 20px;
-    text-overflow:ellipsis;
 }
 
 h3{
